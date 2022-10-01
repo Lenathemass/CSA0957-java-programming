@@ -1,0 +1,37 @@
+import java.util.*;
+public class evefact{
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+try
+{
+int n,fact=1;
+System.out.print("Enter a number : ");
+n=sc.nextInt();
+if(n%2==0 && n>=0)
+{
+if(n==0)
+{
+fact=1;
+System.out.print("Factorial of given number is "+fact);
+}
+else
+{
+for(int i=1;i<=n;i++)
+{
+fact=fact*i;
+}
+System.out.print("Factorial of given number is "+fact);
+}
+
+}
+else{
+System.out.print("Given number is Invalid");
+}
+}
+catch(InputMismatchException v)
+{
+System.out.print("Given number is Invalid");
+}
+
+}
+}
