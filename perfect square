@@ -1,0 +1,27 @@
+import java.util.*;
+public class perfectsquare 
+{
+static void perfectSquares main(string[]args){
+scanner obj=new scanner(system.in);
+int n,i,a,b;
+system.out.println("enter the starting value:');
+a=obj.nextint();
+system.out.println("enter the ending value:");
+b=obj.nextint();+r;
+for (i=a;i<=b;i++{
+int c=i*i;
+int r,s=0;
+int c1=s=sc;
+while(c!=0){
+r=c%10;
+s=s+r;
+c=c/10;
+}
+if(s<10 && c1<b){
+system.out.println(i*i);
+}
+}
+}
+}
+ 
+    
